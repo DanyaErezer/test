@@ -12,18 +12,38 @@
 
 </head>
 <body>
-<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>  //иконка
-        <span class="fs-4">Trvlilch</span>
-    </a>
+<header>
+    <div class="top-header">
+        <div class="container">
+            <h1>Trvlilch</h1>
+        </div>
+        <div class="social-icons" >
+            <a href="https://t.me/username" target="_blank">
+                <img src="/images/телеграм.svg" alt="Telegram">
+            </a>
+            <a href="https://vk.com/club229293452" target="_blank">
+                <img src="/images/vk.svg" alt="VK">
+            </a>
+            <a href="https://www.instagram.com/username" target="_blank">
+                <img src="/images/instagram.svg" alt="Instagram">
+            </a>
+        </div>
 
-    <ul class="nav nav-pills" style="">
-        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Главная</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">О нас</a></li>
-    </ul>
+    </div>
+    <nav class="main-header">
+        <div class="container">
+            <h1 class="logo">Trvlilch</h1>
+            <ul class="nav-menu">
+                <li><a href="/">Главная</a></li>
+                <li><a href="/about">О нас</a></li>
+                <li><a href="/travel">Путешествия</a></li>
+                <li><a href="/contact">Контакты</a></li>
+                <li><a href="#">Фотографии</a></li>
+            </ul>
+        </div>
+    </nav>
 </header>
+
 
 </body>
 </html>
